@@ -1,5 +1,5 @@
 <?php 
-// HTTP TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE TESTE
+// HTTP 
 define('HTTP_SERVER', 'http://localhost/OC/rivieraliancas_oc/');
 
 // HTTPS

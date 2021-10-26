@@ -1,16 +1,16 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://rivieraliancas.com.br/');
+define('HTTP_SERVER', 'http://localhost/OC/rivieraliancas_oc/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://rivieraliancas.com.br/');
+define('HTTPS_SERVER', 'http://localhost/OC/rivieraliancas_oc/');
 
 // DIR
-define('DIR_APPLICATION', '/home/u788819736/domains/rivieraliancas.com.br/public_html/catalog/');
-define('DIR_SYSTEM', '/home/u788819736/domains/rivieraliancas.com.br/public_html/system/');
-define('DIR_IMAGE', '/home/u788819736/domains/rivieraliancas.com.br/public_html/image/');
-define('DIR_WEBHOOK', '/home/u788819736/domains/rivieraliancas.com.br/public_html/webhook/');
-define('DIR_STORAGE', '/home/u788819736/domains/storage/');
+define('DIR_APPLICATION', 'C:/xampp/htdocs/OC/rivieraliancas_oc/catalog/');
+define('DIR_SYSTEM', 'C:/xampp/htdocs/OC/rivieraliancas_oc/system/');
+define('DIR_IMAGE', 'C:/xampp/htdocs/OC/rivieraliancas_oc/image/');
+define('DIR_WEBHOOK', 'C:/xampp/htdocs/OC/rivieraliancas_oc/webhook/');
+define('DIR_STORAGE', 'C:/xampp/htdocs/OC/rivieraliancas_oc/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -23,9 +23,9 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', '156.67.74.151');
-define('DB_USERNAME', 'u788819736_admin');
-define('DB_PASSWORD', '#Handebol18');
-define('DB_DATABASE', 'u788819736_rivierbd');
+define('DB_HOSTNAME', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '');
+define('DB_DATABASE', 'br_opencart');
 define('DB_PORT', '3306');
 define('DB_PREFIX', 'ocbr_');
